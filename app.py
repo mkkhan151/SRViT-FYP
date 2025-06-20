@@ -37,7 +37,7 @@ def load_model():
     # Assuming 'best_lmlt.pth' is available in the same directory as the Streamlit app
     # You would need to provide this file.
     try:
-        model.load_state_dict(torch.load("models/best_lmlt.pth", map_location=torch.device('cpu')))
+        model.load_state_dict(torch.load("models/best_srvit_x2.pth", map_location=device))
         st.success("Model loaded successfully!")
     except FileNotFoundError:
         st.error("Model weights 'best_lmlt.pth' not found. Please ensure the model file is in the same directory.")
