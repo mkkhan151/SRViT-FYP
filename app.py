@@ -69,7 +69,7 @@ if uploaded_file is not None:
                 cv2.resize(original_image_cv2, (256,256), interpolation=cv2.INTER_CUBIC),
                 channels="GRAY",
                 caption="Resized to 256x256",
-                use_container_width=True
+                # use_container_width=True
             )
 
         with col2:
@@ -79,7 +79,7 @@ if uploaded_file is not None:
                 hr_image_np,
                 channels="GRAY",
                 caption="Converted to 512x512",
-                use_container_width=True
+                # use_container_width=True
             )
 
     except Exception as e:

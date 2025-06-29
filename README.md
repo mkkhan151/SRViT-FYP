@@ -38,11 +38,11 @@ Super Resolution Vision Transformer (SRViT) is a deep learning project that leve
 ## Usage
 
 ### Training
-- For Training, visit [lmlt-training notebook](notebooks/lmlt-training.ipynb) in notebooks folder.
+- For Training, visit [SRViT_Training_x2](notebooks/SRViT_Training_x2.ipynb) in notebooks folder.
 - It contains all code data loading, model architecture, training, and evaluation.
 
 ### Evaluation
-- visit the [lmlt-training notebook](notebooks/lmlt-training.ipynb) for detailed instructions.
+- visit the [SRViT_Training_x2](notebooks/SRViT_Training_x2.ipynb) for detailed instructions.
 
 ### Streamlit App
 - To test the model, run streamlit app after creating virtual environment.
