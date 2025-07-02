@@ -10,10 +10,10 @@ Based on these developments, a new model called the Low-to-High Multi-Level Tran
 
 ## Results
 LMLT x2 Upscaling
-![Results](srvit_x2.png)
+![x2 Upscaling](Results/srvit_x2.png)
 
 LMLT x4 Upscaling
-![Results](srvit_x4.png)
+![x4 Upscaling](Results/srvit_x4.png)
 
 ## Features
 
